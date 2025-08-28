@@ -1,0 +1,131 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+:root{
+    --primary-color: #489fff;
+    --light-color: #f4f4f6;
+    --dark-color: #111;
+
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    background-color: #fff;
+    overflow-x: hidden;
+}
+
+
+
+a {
+    text-decoration: none;
+    color: #333;
+}
+
+ul {
+    list-style: none;
+}
+
+.navbar {
+    background-color: #fff;
+    padding: 20px 0;
+}
+
+.navbar .container {
+    display: flex;  
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar .main-menu ul {
+    display: flex;
+    gap: 40px;
+}
+
+.navbar ul li a {
+    padding: 20px 0;
+    display: block;
+    font-weight: 600;
+    transition: 0.5s;
+}
+
+.navbar ul li a:hover {
+    color: var(--primary-color);
+}
+
+.hamburger-button {
+      display: flex;
+      flex-direction: column;
+      cursor: pointer;
+      gap: 5px;
+      margin-left: 20px;
+    }
+
+.hamburger-line {
+      width: 25px;
+      height: 3px;
+      background: #000;
+    }
+
+.hero .container {
+        padding-top: 80px;
+        padding-bottom: 80px;
+    }
+
+.hero .container .main-heading {
+        font-size: 60px;
+        line-height: 1.2em;
+    }
+
+.btn {
+        display: inline-block;
+        background-color: var(--primary-color);
+        color: #fff;
+        padding: 15px 30px;
+        border-radius: 50px;
+        font-weight: 600;
+        transition: 0.5s;
+    }
+    
+.hero .hero-content a {
+        margin-top: 30px;
+    }
+
+.hero .hero-content p {
+        padding-top: 16px;
+    }
+
+.hero .container .image {
+        border: solid 1px #000;
+        border-radius: 16px;
+        background-color: var(--primary-color);
+        display: flex;
+        flex: 1;
+        justify-content: center;
+        min-height: 320px;
+    }
+.hero .container {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        gap: 50px;
+    }
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+.hero .hero-content {
+    flex:1;
+}
+
+img {
+    max-width: 100%;
+    display: block;
+}
