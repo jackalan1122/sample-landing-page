@@ -102,12 +102,56 @@ ul {
 .hero .container .image {
         border: solid 1px #000;
         border-radius: 16px;
-        background-color: var(--primary-color);
+        background-color: var(--light-color);
         display: flex;
+        flex-direction: column;
         flex: 1;
         justify-content: center;
-        min-height: 320px;
+        align-items: center;
+        min-height: 420px;
     }
+
+   .hero .container .phone-placeholder {
+  border: 2px solid #666;
+  border-radius: 20px;
+  padding: 20px;
+  width: 200px;
+  height: 350px;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.phone-placeholder .screen {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.phone-placeholder .header img {
+  max-width: 100%;
+  margin-bottom: 30px;
+}
+
+.phone-placeholder .line {
+  border: 1px solid #aaa;
+  height: 15px;
+  margin: 10px 0;
+}
+
+.phone-placeholder .line.short {
+  width: 60%;
+}
+
+.phone-placeholder .button {
+  border: 2px solid #999;
+  width: 40%;
+  height: 30px;
+  margin: 20px 0 0;
+  border-radius: 5px;
+  align-self: flex-end;
+}
+
 .hero .container {
         display: flex;
         justify-content: space-between;
